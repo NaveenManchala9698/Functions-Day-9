@@ -70,7 +70,6 @@ function boundary (n) {
 if (n >= 20 && n<=100) {
     return true;
 }
-
 return false;
 }
 */
@@ -79,7 +78,13 @@ return false;
  It should add the word "Strive" in front of the given string, but if the given string already begins with "Strive", then it should just return the original string.
 */
 
+function strivify (name = 'Strive') {
+   console.log ("Strive", name)
+}
 
+strivify('school')
+strivify('Developer')
+strivify('Strive Coding')
 
 /* EXERCISE 6
  Write a function called "check3and7" which accepts a positive number as a parameter and checks if it is a multiple of 3 or a multiple of 7.
@@ -120,11 +125,17 @@ console.log()
  Write a function called "cutString" which creates a new string without the first and last character of a given string passed as a parameter.
 */
 
-/* WRITE YOUR ANSWER HERE */
+function cutString() {
+
+}
 
 /* EXERCISE 10
  Write a function called "giveMeRandom" which accepts a number n and returns an array containing n random numbers between 0 and 10.
 */
+  
+function giveMeRandom(x) {
+
+}
 
 /* WRITE YOUR ANSWER HERE */
 
