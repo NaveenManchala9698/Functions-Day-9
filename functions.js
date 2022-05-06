@@ -12,20 +12,11 @@ ASSIGNMENT RULES
  Write a function called "area" which receives 2 parameters (l1, l2) and calculates the area of the associated rectangle.
 */
 
-/*
-let length = l1
-let width = l2
-
-console.log(l1)
-console.log(l2)
-
 function area(l1, l2) {
-    return(l1 * l2);
-};
+    let area = l1*l2
+    console.log(area)
+}
 
-let result = area(l1, l2)
-console.log(result)
-*/
 
 /* EXERCISE 2
  Write a function called "crazySum" which receives two integers as parameters.
@@ -72,7 +63,7 @@ console.log(result)
 /* EXERCISE 4
  Write a function called "boundary" which accept an integer parameter n and returns true if n is within 20 and 100 (included) or if n it's equal to 400.
 */
-
+/*
 function boundary (n) {
     console.log("n")
 
@@ -82,7 +73,7 @@ if (n >= 20 && n<=100) {
 
 return false;
 }
-
+*/
 /* EXERCISE 5
  Write a function called "strivify" which accepts a string as a parameter.
  It should add the word "Strive" in front of the given string, but if the given string already begins with "Strive", then it should just return the original string.
@@ -95,7 +86,6 @@ return false;
  HINT: Modulus Operator
 */
 
-/* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 7
  Write a function called "reverseString" which programmatically reverses a given string (es.: Strive => evirtS).
@@ -113,17 +103,17 @@ console.log("Reversed String is:", reverseString(str));
 /* EXERCISE 8
  Write a function called "upperFirst" which capitalizes the first letter of each word of a given string passed as a parameter.
 */
-
+/*
 function upperfirst(My, name, is, Naveen) {
     var separateWord = str.toLowercase().split("");
 
     for (var i = 0; i < separateWord.length; i++) {
-        separateWord[i] = separateWord[i].charAt(0).toUppercase() + separateWord[i].substring(1)
+        separateWord[i] = separateWord[i].charAt(0).toUppercase()
     }
     return separateWord.join("")
 }
 console.log()
-
+*/
 
 
 /* EXERCISE 9
